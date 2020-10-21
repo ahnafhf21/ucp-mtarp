@@ -81,7 +81,7 @@ strong{
 						
 						<div class="form-group">
                             <div class="col-md-6">
-                                <div class="g-recaptcha" data-sitekey="6LesndMUAAAAAMJbhdseSdS5Cnxmpo2DlBsqUqrc"></div>
+                                <div class="g-recaptcha" data-sitekey="//"></div>
                                 @if ($errors->has('g-recaptcha-response'))
                                     <span class="invalid-feedback" style="display:block">
                                         <strong style="color:red;">{{ $errors->first('g-recaptcha-response') }}</strong>
